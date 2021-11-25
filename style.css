@@ -190,9 +190,36 @@ p span {
 }
 .carousel-img-three {
     background-image: url("./img/console.jpg");
-
 }
 
+/*Team*/
+
+.team-title {
+    font-weight: bold;
+}
+
+.card-name span {
+    color: var(--primary-color);
+}
+
+.card-title {
+    font-size: 2rem;
+    font-style: italic;
+    padding: 0.75rem 0;
+}
+
+.card-text {
+    font-size: 2.25rem;
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+
+.fab {
+    color: var(--primary-color);
+}
 
 
 
