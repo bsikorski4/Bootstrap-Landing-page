@@ -101,6 +101,46 @@ header {
     padding: 1rem 1.25rem;
 }
 
+/*services*/
+
+.services {
+    padding-top: 5rem;
+}
+
+.services-title {
+    font-weight: bold;
+}
+
+.service-icon {
+    font-size: 6rem;
+    position: relative;
+}
+
+
+.fa-mobile-alt,
+.fa-desktop,
+.fa-gamepad {
+    color: #27ec12;
+
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 2rem;
+}
+
+p span {
+    font-weight: bold;
+    color: #27ec12;
+}
+
+
+
+
 
 
 
