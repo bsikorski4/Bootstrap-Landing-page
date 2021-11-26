@@ -27,8 +27,8 @@ body {
     z-index: -1;
 }
 
-h2::before,
-h2::after {
+.title::before,
+.title::after {
     background-color: var(--primary-color);
     content: "";
     display: inline-block;
@@ -37,7 +37,8 @@ h2::after {
     width: 4rem;
 }
 
-h2 {
+.title {
+    font-weight: bold;
     padding-top: 5rem;
 }
 
@@ -126,6 +127,11 @@ header {
     font-size: 2rem;
     margin: 0 2rem;
     padding: 1rem 1.25rem;
+}
+
+.btn-second-header:hover {
+    color: #fff;
+
 }
 
 /*services*/
@@ -236,8 +242,15 @@ p span {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
 }
+/*Contact*/
 
-
+.form-control {
+    resize: none;
+}
+.contact i,
+.contact span {
+    color: var(--primary-color);
+}
 
 
 
