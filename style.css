@@ -11,9 +11,11 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
+    position: relative;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.6rem;
 }
@@ -27,6 +29,11 @@ body {
     z-index: -1;
 }
 
+.title {
+    font-weight: bold;
+    padding-top: 5rem;
+}
+
 .title::before,
 .title::after {
     background-color: var(--primary-color);
@@ -37,10 +44,14 @@ body {
     width: 4rem;
 }
 
-.title {
-    font-weight: bold;
-    padding-top: 5rem;
+.scroll-fix::before {
+    content: "";
+    display: block;
+    margin-top: -3rem;
+    height: 3rem;
+
 }
+
 
 
 /*main*/
